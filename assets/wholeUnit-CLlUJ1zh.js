@@ -1,0 +1,1 @@
+import{Kt as e}from"./ui-CXg3Rzag.js";var t=e(),n=`muster.wholeUnit`,r=a(),i=new Set;function a(){try{return localStorage.getItem(n)!==`0`}catch{return!0}}function o(){return r}function s(e){r=e;try{localStorage.setItem(n,e?`1`:`0`)}catch{}i.forEach(e=>e())}function c(){return(0,t.useSyncExternalStore)(e=>(i.add(e),()=>i.delete(e)),()=>r)}export{c as n,o as r,s as t};
