@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Muster privacy policy</title>
+    <style>
+      :root {
+        color-scheme: dark light;
+        --bg: #0b0d10;
+        --text: #e4e4e7;
+        --muted: #a1a1aa;
+        --link: #fbbf24;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #fafafa;
+          --text: #18181b;
+          --muted: #52525b;
+          --link: #b45309;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 1rem/1.6 system-ui, sans-serif;
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2rem 1rem 4rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.04em;
+      }
+      h2 {
+        font-size: 1.05rem;
+        margin-top: 2rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Muster privacy policy</h1>
+      <p>Last updated 2 November 2026.</p>
+      <p>
+        Muster is a free, unofficial army list builder for Warhammer 40,000, made by one person as a hobby project. It is not affiliated with, endorsed or sponsored by Games
+        Workshop. This page says what Muster does with your data. In short: your lists stay on your devices, and, if you turn on sync, in a private folder of your own Google
+        Drive. Muster has no server of its own and no account system.
+      </p>
+
+      <h2>What stays on your device</h2>
+      <p>
+        Your army lists, unit presets, colours, display settings and game tracker live in the app's storage on your device (the browser's storage for the website). Muster
+        never sends them anywhere unless you share a list code yourself or turn on Google Drive sync.
+      </p>
+
+      <h2>Game data downloads</h2>
+      <p>
+        To stay up to date, Muster downloads game data (datasheets, points, missions) from a public GitHub repository. Like any download, this tells GitHub your IP address;
+        nothing about you or your lists is sent. GitHub's own privacy statement applies to that request.
+      </p>
+
+      <h2>Google Drive sync (optional)</h2>
+      <p>If you sign in with Google to sync your lists between devices:</p>
+      <ul>
+        <li>
+          Muster asks only for the <code>drive.appdata</code> permission: a hidden folder in your Google Drive that only Muster can use. It cannot see, change or delete any
+          of your other files.
+        </li>
+        <li>In that folder it keeps one file with your lists, unit presets and colours, and reads it back on your other devices.</li>
+        <li>
+          The sign-in gives your device a token to reach that folder. It is kept on your device only, and is never sent to anyone but Google. Muster does not read your name,
+          email address or contacts beyond what Google shows on the sign-in screen.
+        </li>
+        <li>
+          Sign out in Muster to stop syncing. To delete the synced file, remove Muster's app data in Google Drive (Settings → Manage apps → Muster → Delete hidden app data),
+          or revoke Muster's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+        </li>
+      </ul>
+      <p>
+        Muster's use of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.
+      </p>
+
+      <h2>No tracking</h2>
+      <p>Muster has no analytics, no advertising and no cookies of its own, and sells or shares no data.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: open an issue at <a href="https://github.com/Mithlyar/muster-app/issues">github.com/Mithlyar/muster-app</a>.</p>
+      <p><a href="./">Back to Muster</a></p>
+    </main>
+  </body>
+</html>
